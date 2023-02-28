@@ -14,8 +14,8 @@ const Navbar = () => {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
-            Menu
+          <Typography variant="h6" color="inherit" component="div" sx={{ mr: 2 }}>
+            Home
           </Typography>
         </Toolbar>
       </AppBar>
