@@ -34,9 +34,7 @@ const TrendingWeekly = () => {
   }, []);
 
   return <Box>
-    {weekly.results.map((program) => {
-      console.log(Object.keys(program))
-
+    {weekly.results?.map((program) => {
       return (
         <Program program={program} />
       )
